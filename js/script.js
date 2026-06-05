@@ -1,3 +1,4 @@
+//Quiz
 const perguntas = [
     {
         pergunta: "Qual órgão brasileiro fornece dados sobre queimadas utilizados pelo Eco Fusion?",
@@ -261,3 +262,52 @@ function finalizarQuiz(){
 }
 
 mostrarPergunta();
+
+//slideshow
+const slides =
+    document.querySelectorAll(".slide");
+
+let slideAtual = 0;
+
+function mostrarSlide(indice){
+
+    slides.forEach(slide => {
+
+        slide.classList.remove("ativo");
+
+    });
+
+    slides[indice].classList.add("ativo");
+}
+
+document
+    .getElementById("proximo")
+    .addEventListener("click", () => {
+
+        slideAtual++;
+
+        if(slideAtual >= slides.length){
+
+            slideAtual = 0;
+
+        }
+
+        mostrarSlide(slideAtual);
+
+});
+
+document
+    .getElementById("anterior")
+    .addEventListener("click", () => {
+
+        slideAtual--;
+
+        if(slideAtual < 0){
+
+            slideAtual = slides.length - 1;
+
+        }
+
+        mostrarSlide(slideAtual);
+
+});

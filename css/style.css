@@ -1,0 +1,42 @@
+.slider{
+    position: relative;
+    width: 800px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.slide{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    display: none;
+    border-radius: 10px;
+}
+
+.slide.ativo{
+    display: block;
+}
+
+#anterior,
+#proximo{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+    background: rgba(0,0,0,0.5);
+    color: white;
+
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+
+    font-size: 20px;
+}
+
+#anterior{
+    left: 10px;
+}
+
+#proximo{
+    right: 10px;
+}
