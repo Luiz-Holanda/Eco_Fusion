@@ -262,14 +262,16 @@ document.getElementById("anterior").addEventListener("click", () => {
   mostrarSlide(slideAtual);
 });
 
-const button = document.getElementById("theme-toggle");
+const themeBtn = document.getElementById("theme-btn");
 
-button.addEventListener("click", () => {
-    document.body.classList.toggle("dark-theme");
+themeBtn.addEventListener("click", () => {
 
-    if (document.body.classList.contains("dark-theme")) {
-        button.textContent = "☀︎ Tema Claro";
-    } else {
-        button.textContent = "☾ Tema Escuro";
+    document.body.classList.toggle("dark");
+
+    if(document.body.classList.contains("dark")){
+        themeBtn.textContent = "☼";
+    }else{
+        themeBtn.textContent = "⏾";
     }
+
 });
