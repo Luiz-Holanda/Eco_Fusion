@@ -23,6 +23,9 @@ link do video
 ---
 ## Projeto complementar do Wokwi e foto 
 - https://wokwi.com/projects/465662515143762945
+<img width="858" height="802" alt="Captura de tela 2026-06-06 195312" src="https://github.com/user-attachments/assets/b5b1b43d-3a68-4b9c-9029-af9710986974" />
+
+
 
 
 ## Objetivo
