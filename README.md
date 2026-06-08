@@ -18,7 +18,7 @@ Uma plataforma web que analisa riscos ambientais de terrenos com base em dados s
 ---
 
 ## Explicação do projeto 
-[link do video](https://youtu.be/fwi0RFSQkYA)
+[Vídeo da explicação](https://youtu.be/fwi0RFSQkYA)
 
 ---
 ## Projeto complementar do Wokwi e foto 
