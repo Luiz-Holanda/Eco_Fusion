@@ -6,10 +6,10 @@
 
 Projeto desenvolvido por:
 
-* Felipe Ribeiro
-* Luiz Alberto
-* Milena Kubo
-* Yasmim Kim
+*Felipe Ribeiro da Silva 
+*Luiz Alberto de Carvalho Holanda Junior 
+*Milena Kubo de Biaggi 
+*Yasmim Eun Hae Kim
 
 # EcoScan – Análise Inteligente de Terrenos
 
