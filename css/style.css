@@ -257,16 +257,44 @@ ul{
     border-radius:8px;
     background:rgba(0,0,0,0.03);
 }
-
 footer{
-    text-align:center;
-    padding:40px;
-    background:var(--secondary);
-    color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background: var(--secondary);
+    color: white;
+}
+
+.footer-info{
+    text-align: left;
+}
+
+.footer-team{
+    text-align: right;
+}
+
+.footer-team h4,
+.footer-info h3{
+    margin-bottom: 10px;
+}
+
+.footer-team p,
+.footer-info p{
+    margin: 2px 0;
 }
 
 @media(max-width:768px){
+    footer{
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
 
+    .footer-info,
+    .footer-team{
+        text-align: center;
+    }
     nav{
         flex-direction:column;
         gap:10px;
