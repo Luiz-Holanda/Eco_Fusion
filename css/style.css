@@ -1,4 +1,3 @@
-/* RESET */
 *{
     margin:0;
     padding:0;
@@ -6,7 +5,6 @@
     font-family:'Poppins',sans-serif;
 }
 
-/* VARIÁVEIS */
 :root{
     --primary:#2e7d32;
     --secondary:#1b5e20;
@@ -21,14 +19,12 @@
     --card:#1e1e1e;
 }
 
-/* BODY */
 body{
     background:var(--background);
     color:var(--text);
     transition:0.4s;
 }
 
-/* NAVBAR */
 nav{
     position:fixed;
     top:0;
@@ -64,7 +60,6 @@ nav a:hover{
     font-weight:700;
 }
 
-/* BOTÃO TEMA */
 #theme-btn{
     position:fixed;
     top:80px;
@@ -77,8 +72,6 @@ nav a:hover{
     color:white;
     font-size:18px;
 }
-
-/* HERO / SLIDESHOW */
 
 #slideshow{
     margin-top:100px;
@@ -110,7 +103,6 @@ nav a:hover{
     display: block;
 }
 
-/* BOTÕES SLIDE */
 #anterior,
 #proximo{
     position: absolute;
@@ -128,7 +120,6 @@ nav a:hover{
 #anterior{ left: 10px; }
 #proximo{ right: 10px; }
 
-/* TEXTO HERO */
 #slideshow + p{
     text-align:center;
     max-width:600px;
@@ -146,7 +137,6 @@ nav a:hover{
     text-decoration:none;
 }
 
-/* SEÇÕES */
 .section{
     padding:100px 10%;
 }
@@ -157,7 +147,6 @@ nav a:hover{
     color:var(--primary);
 }
 
-/* CARDS */
 .cards{
     display:flex;
     flex-wrap:wrap;
@@ -179,14 +168,12 @@ nav a:hover{
     transform:translateY(-8px);
 }
 
-/* LISTAS */
 ul{
     max-width:700px;
     margin:auto;
     line-height:1.8;
 }
 
-/* ANALISE E QUIZ */
 #analise,
 #quiz{
     padding:80px 10%;
@@ -194,7 +181,6 @@ ul{
     margin:auto;
 }
 
-/* FORM */
 #formAnalise{
     display:flex;
     flex-direction:column;
@@ -218,7 +204,6 @@ ul{
     cursor:pointer;
 }
 
-/* RESULTADO */
 #resultadoAnalise{
     margin:30px auto;
     padding:20px;
@@ -226,7 +211,6 @@ ul{
     background:var(--card);
 }
 
-/* QUIZ */
 #quiz-container{
     max-width:800px;
     margin:30px auto;
@@ -235,7 +219,6 @@ ul{
     background:var(--card);
 }
 
-/* PROGRESSO */
 .progresso{
     width:100%;
     max-width:800px;
@@ -251,7 +234,6 @@ ul{
     background:var(--primary);
 }
 
-/* BOTÕES QUIZ */
 .botoes{
     display:flex;
     justify-content:center;
@@ -268,7 +250,6 @@ ul{
     cursor:pointer;
 }
 
-/* ALTERNATIVAS */
 .alternativa{
     display:flex;
     gap:10px;
@@ -277,7 +258,6 @@ ul{
     background:rgba(0,0,0,0.03);
 }
 
-/* FOOTER */
 footer{
     text-align:center;
     padding:40px;
@@ -285,7 +265,6 @@ footer{
     color:white;
 }
 
-/* RESPONSIVO */
 @media(max-width:768px){
 
     nav{
@@ -305,4 +284,27 @@ footer{
     #theme-btn{
         top:120px;
     }
+}
+.section p{
+    max-width: 900px;
+    margin: 0 auto 20px auto;
+    font-size: 1.15rem;
+    line-height: 1.9;
+    text-align: justify;
+    color: var(--text);
+}
+
+.section p:first-of-type{
+    font-size: 1.2rem;
+}
+
+.textBox{
+    max-width: 1000px;
+    padding: 30px;
+    background: var(--card);
+    border-left: 6px solid var(--primary);
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,.08);
+    text-indent: 2em;
+    margin: 0 auto;
 }
